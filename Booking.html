@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RideNest VEHICLE BOOKING</title>
+</head>
+<body>
+
+    <header>
+        <h1>🚗 RideNest</h1>
+        <nav>
+            <a href="index.html">Overview</a> |
+            <a href="vehicles.html">Vehicle Information</a> |
+            <a href="booking.html">Book Ride</a> |
+            <a href="how-it-works.html">How It Works</a> |
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <h1>Make it a ride to remember.</h1>
+        <p>Tell us what you need. Fill in your trip details below.</p>
+
+        <h2>Trip Details</h2>
+
+        <form action="#" method="get">
+
+            <label for="vehicle">Choose Vehicle:</label><br>
+            <select id="vehicle" name="vehicle" required>
+                <option value="">Select a vehicle</option>
+                <option>Hyundai i20</option>
+                <option>Honda City</option>
+                <option>Royal Enfield Classic 350</option>
+                <option>Yamaha MT-15</option>
+                <option>Honda Activa 6G</option>
+                <option>TVS Jupiter</option>
+            </select>
+            <br><br>
+
+            <label for="pickup">Pickup Date:</label><br>
+            <input type="date" id="pickup" name="pickup" required>
+            <br><br>
+
+            <label for="return">Return Date:</label><br>
+            <input type="date" id="return" name="return" required>
+            <br><br>
+
+            <label for="location">Pickup Location:</label><br>
+            <input type="text" id="location" name="location"
+                   placeholder="e.g. LPU Main Gate" required>
+            <br><br>
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+            <br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"
+                   placeholder="you@example.com" required>
+            <br><br>
+
+            <label>
+                <input type="checkbox" required>
+                I confirm that the details above are correct.
+            </label>
+            <br><br>
+
+            <button type="submit">Confirm Booking</button>
+
+        </form>
+
+        <hr>
+
+        <h2>Your Booking Summary</h2>
+        <p>Vehicle: Select a vehicle</p>
+        <p>Daily Rate: Depends on vehicle</p>
+        <p>Duration: Select your dates</p>
+        <p>Estimated Total: ₹0</p>
+
+        <p>
+            Note: This is a student project demo.
+            It does not reserve a real vehicle or accept payments.
+        </p>
+    </main>
+
+    <footer>
+        <hr>
+        <p>© 2026 RideNest | Student Project Demo</p>
+        <a href="contact.html">Contact Us</a>
+    </footer>
+
+</body>
+</html>
